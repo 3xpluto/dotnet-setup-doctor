@@ -1,4 +1,7 @@
 # dotnet-setup-doctor
+[![CI](https://github.com/3xpluto/dotnet-setup-doctor/actions/workflows/ci.yml/badge.svg)](https://github.com/3xpluto/dotnet-setup-doctor/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 A Windows/.NET environment “doctor” CLI — audits **.NET SDK**, **MSBuild / Visual Studio Build Tools**, **Git**, **NuGet**, plus basic **PATH/env-var** sanity checks.  
 Outputs a friendly console report (✅/⚠️/❌) or machine-readable JSON.
