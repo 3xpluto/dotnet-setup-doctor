@@ -1,0 +1,8 @@
+$ where git
+ExitCode: 0
+
+--- STDOUT ---
+C:\Program Files\Git\cmd\git.exe
+
+--- STDERR ---
+

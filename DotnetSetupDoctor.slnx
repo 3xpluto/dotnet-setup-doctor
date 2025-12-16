@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/DotnetSetupDoctor/DotnetSetupDoctor.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DotnetSetupDoctor.Tests/DotnetSetupDoctor.Tests.csproj" />
+  </Folder>
+</Solution>

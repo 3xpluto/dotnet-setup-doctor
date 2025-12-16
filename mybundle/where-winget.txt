@@ -1,0 +1,8 @@
+$ where winget
+ExitCode: 0
+
+--- STDOUT ---
+C:\Users\iamth\AppData\Local\Microsoft\WindowsApps\winget.exe
+
+--- STDERR ---
+

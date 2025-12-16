@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <!-- Pack as a .NET global tool -->
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>dotnet-setup-doctor</ToolCommandName>
+
+    <!-- NuGet package metadata -->
+    <PackageId>dotnet-setup-doctor</PackageId>
+    <Title>dotnet-setup-doctor</Title>
+    <Description>Windows/.NET environment “doctor” CLI — audits SDK/MSBuild/Git/NuGet + PATH and outputs actionable fix hints (console or JSON).</Description>
+    <Authors>3xpluto</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <!-- You can set these later -->
+    <RepositoryUrl>https://github.com/3xpluto/dotnet-setup-doctor</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/3xpluto/dotnet-setup-doctor</PackageProjectUrl>
+
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Include README in the nupkg so NuGet displays it -->
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>

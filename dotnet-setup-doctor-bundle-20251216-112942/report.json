@@ -1,0 +1,92 @@
+[
+  {
+    "Name": "Windows info",
+    "Status": "Info",
+    "Summary": "System info",
+    "Details": [
+      "OS: Microsoft Windows NT 10.0.26100.0",
+      "64-bit OS: True",
+      "64-bit Proc: True",
+      "Machine: PLUTO",
+      "User: iamth"
+    ],
+    "FixHint": null
+  },
+  {
+    "Name": "PATH sanity",
+    "Status": "Info",
+    "Summary": "PATH looks present",
+    "Details": [
+      "Entries: 27"
+    ],
+    "FixHint": null
+  },
+  {
+    "Name": "Environment variables",
+    "Status": "Info",
+    "Summary": "Collected common env vars",
+    "Details": [
+      "DOTNET_ROOT: \u003Cnot set\u003E",
+      "MSBuildSDKsPath: \u003Cnot set\u003E",
+      "NUGET_PACKAGES: \u003Cnot set\u003E"
+    ],
+    "FixHint": null
+  },
+  {
+    "Name": ".NET SDK",
+    "Status": "Pass",
+    "Summary": "Found 1 SDK(s)",
+    "Details": [
+      "10.0.101 [C:\\Program Files\\dotnet\\sdk]"
+    ],
+    "FixHint": null
+  },
+  {
+    "Name": "MSBuild / Visual Studio Build Tools",
+    "Status": "Pass",
+    "Summary": "Visual Studio installation with MSBuild detected",
+    "Details": [
+      "VS install path: C:\\Program Files\\Microsoft Visual Studio\\18\\Community"
+    ],
+    "FixHint": null
+  },
+  {
+    "Name": "NuGet",
+    "Status": "Info",
+    "Summary": "NuGet local cache info",
+    "Details": [
+      "global-packages: C:\\Users\\iamth\\.nuget\\packages\\"
+    ],
+    "FixHint": null
+  },
+  {
+    "Name": "Git",
+    "Status": "Pass",
+    "Summary": "git version 2.52.0.windows.1",
+    "Details": [],
+    "FixHint": null
+  },
+  {
+    "Name": "winget",
+    "Status": "Pass",
+    "Summary": "v1.12.350",
+    "Details": [],
+    "FixHint": null
+  },
+  {
+    "Name": "Long Paths",
+    "Status": "Warn",
+    "Summary": "Disabled",
+    "Details": [
+      "LongPathsEnabled=0"
+    ],
+    "FixHint": "Enable Win32 long paths to avoid path-too-long build errors."
+  },
+  {
+    "Name": "Developer Mode",
+    "Status": "Warn",
+    "Summary": "Couldn\u0027t read Developer Mode setting",
+    "Details": [],
+    "FixHint": "Enable Developer Mode in Windows Settings (Privacy \u0026 security -\u003E For developers)."
+  }
+]
