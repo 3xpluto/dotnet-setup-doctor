@@ -1,8 +1,0 @@
-$ where dotnet
-ExitCode: 0
-
---- STDOUT ---
-C:\Program Files\dotnet\dotnet.exe
-
---- STDERR ---
-

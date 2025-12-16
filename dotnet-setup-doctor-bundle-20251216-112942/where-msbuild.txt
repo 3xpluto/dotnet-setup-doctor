@@ -1,8 +1,0 @@
-$ where msbuild
-ExitCode: 1
-
---- STDOUT ---
-
-
---- STDERR ---
-INFO: Could not find files for the given pattern(s).
